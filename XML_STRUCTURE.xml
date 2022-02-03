@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?> <!-- XML 선언문-->
+<shop shoes="신발" type="브랜드"> <!-- 문서에 단 하나만이 존재하는 루트 요소 생성, XML 문서에 존재하는 모든 요소의 조상요소가 된다. -->
+    <shoes> <!-- name, sort, cost의 세가지 자식 요소를 가지고 있다.-->
+        <name>에어맥스</name>
+        <sort>운동화</sort>
+        <cost>199000</cost>
+    </shoes>
+    <shoes>
+        <name>닥터마틴</name>
+        <sort>워커</sort>
+        <cost>179000</cost>
+    </shoes>
+</shop>
