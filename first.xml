@@ -1,10 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <programming_languages>
+    <!-- 첫번째 커밋-->
+    <!-- 구조
+    <language>
+        <name>언어명</name>
+        <category>카테고리</category>
+        <developer>개발주체</developer>
+        <version status="">버전</version>
+        <priority rating="순서">중요도</priority>
+    </language>    
+    --> 
     <language>
         <name>HTML</name>
         <category>web</category>
         <developer>W3C</developer>
         <version status="working draft">5.1</version>
-        <!-- 첫번째 커밋-->
+        <priority rating="1">high</priority>
+    </language>
+    <language>
+        <name>CSS</name>
+        <category>web</category>
+        <developer>W3C</developer>
+        <version status="stable">3.0</version>
+        <priority rating="3">middle</priority>
+    </language>
+    <language>
+        <name korean="C#">C#</name>
+        <category>application</category>
+        <developer>MicroSoft</developer>
+        <version status="stable">8.91</version>
+        <priority rating="2">high</priority>
+    </language>
+    <language>
+        <name korean="Python">C#</name>
+        <category>application</category>
+        <developer>Python</developer>
+        <version status="stable">3.52</version>
+        <priority rating="4">middle</priority>
     </language>
 </programming_languages>
